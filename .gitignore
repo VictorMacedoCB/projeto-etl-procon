@@ -1,0 +1,32 @@
+# dependências Node.js
+node_modules/
+dashboard/node_modules/
+
+# build Next.js
+.next/
+out/
+build/
+dashboard/.next/
+dashboard/out/
+
+# Banco de dados e saídas ETL
+output/
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de dados (CSVs pesados)
+data/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+env/
+venv/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "metadataBaseFolder" : "c:\\Users\\vitin\\projeto-etl-procon\\hop-config\\metadata",
+  "unitTestsBasePath" : "${PROJECT_HOME}",
+  "dataSetsCsvFolder" : "${PROJECT_HOME}/datasets",
+  "enforcingExecutionInHome" : true,
+  "parentProjectName" : "default",
+  "config" : {
+    "variables" : [ {
+      "name" : "DB_PATH",
+      "value" : "${PROJECT_HOME}/output/procon.db",
+      "description" : "Caminho para o banco SQLite de saida"
+    }, {
+      "name" : "CSV_PATH",
+      "value" : "${PROJECT_HOME}/data/CNRF2020.csv",
+      "description" : "Caminho para o CSV SINDEC 2020"
+    } ]
+  }
+}
